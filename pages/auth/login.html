@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/auth.css">
+    <title>Login</title>
+</head>
+
+<body class="">
+        <div class="vh-100 d-flex align-items-center">
+        <div class="container"> 
+            <!-- Logo Start -->
+            <div class="row">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="../../assets/images/Main Logo.svg" alt="shopbag">
+                    <h1 class="mt-3 ms-2 fnt-color metropolis-b fs-3">Blanja</h1>
+                </div>
+            </div>
+            <!-- Logo End -->
+
+            <!-- Text Start -->
+            <div class="row mt-3">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <p class="metropolis-b">Please login with your account</p>
+                </div>
+            </div>
+            <!-- Text End -->
+
+            <!-- Button Start -->
+            <div class="row justify-content-center">
+                <div class="col-2 nav nav-pills d-flex justify-content-center align-items-center" id="v-pills-tab"
+                    role="tablist">
+                    <div class="btn-group w-100 d-flex justify-content-center align-items-center">
+                        <button class="nav-link active rounded-end-0 rounded-start-1" id="v-pills-customer-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-customer" type="button" role="tab"
+                            aria-controls="v-pills-customer" aria-selected="true">Customer</button>
+                        <button class="nav-link rounded-end-1 rounded-start-0" id="v-pills-seller-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-seller" type="button" role="tab"
+                            aria-controls="v-pills-seller" aria-selected="false">Seller</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Button End -->
+
+            <!-- Input Start -->
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-customer" role="tabpanel"
+                    aria-labelledby="v-pills-customer-tab" tabindex="0">
+                    <div class="row mt-4 my-3 justify-content-center">
+                        <div class="col-lg-4 ">
+                            <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-lg-4">
+                            <input type="password" name="password" id="password" placeholder="Password"
+                                class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-seller" role="tabpanel" aria-labelledby="v-pills-seller-tab"
+                    tabindex="0">
+                    <div class="row mt-4 my-3 justify-content-center">
+                        <div class="col-lg-4 ">
+                            <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-lg-4">
+                            <input type="password" name="password" id="password" placeholder="Password"
+                                class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Input End -->
+
+            <!-- F Password Start -->
+            <div class="row my-3 justify-content-center">
+                <div class="col-lg-4 d-flex justify-content-end">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <!-- F Password End -->
+
+            <!-- Button Start -->
+            <div class="row mb-4 justify-content-center">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <button class="btn btn-primary rounded-pill w-100">
+                        Primary
+                    </button>
+                </div>
+            </div>
+            <!-- Button End -->
+
+            <!-- Register Start -->
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <p>Don't have an account? <a href="register.html"><span>Register</span></a></p>
+                </div>
+            </div>
+            <!-- Register End -->
+
+        </div>
+
+        <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
+
+</body>
+
+</html>
